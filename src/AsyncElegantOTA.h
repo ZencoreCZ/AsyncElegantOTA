@@ -10,7 +10,7 @@
     #include <ESPAsyncTCP.h>
 #elif defined(ESP32)
     #include "WiFi.h"
-    #include <Hash.h>
+    //#include <Hash.h>
     #include <AsyncTCP.h>
     #include <Update.h>
     #include <esp_int_wdt.h>
